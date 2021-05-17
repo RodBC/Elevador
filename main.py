@@ -1,8 +1,8 @@
-def init(self, actual_floor, elevator_floor, desired_floor, stranger_floor, stranger_desired_floor):
+def init(actual_floor, elevator_floor, desired_floor, stranger_floor, stranger_desired_floor):
         
-    self.stranger_desired_floor = stranger_desired_floor
+    stranger_desired_floor = stranger_desired_floor
         
-    self.stranger_floor = stranger_floor
+    stranger_floor = stranger_floor
         
     waiting_time = abs(actual_floor - desired_floor) + abs(actual_floor - elevator_floor)
         
